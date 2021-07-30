@@ -1,10 +1,10 @@
 
-## Luke's Project
+## Luke's Super Project
 
 ![MIT](https://img.shields.io/badge/MIT-Licensed-green)
 
 ## Description
-This is a cool project that does things
+This is a project that does things
 
 1. [Installation](#Installation)
 2. [Usage](#Usage)
@@ -14,16 +14,19 @@ This is a cool project that does things
 6. [Questions](#Questions)
 
 ## Installation
-You double click install
+You press install
 
 ## Usage
-You press the buttons until something happens
+You open it and press buttons
 
-## Licence
+## License
+MIT
+
+## How to Contribute
 undefined
 
 ## Tests
-Every test ever
+No tests
 
 ## Questions
 For further contact, I can be reached at:  
