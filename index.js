@@ -45,6 +45,11 @@ inquirer
         },
         {
             type: 'input',
+            message: 'How can others contribute to this project?',
+            name: 'contribute',
+        },
+        {
+            type: 'input',
             message: 'What tests have been run on this application?',
             name: 'tests',
         },
@@ -67,7 +72,7 @@ inquirer
         let readmeContent = markdown.generateReadme(response)
 
         //Create readme file
-        fs.writeFile('readme.md', readmeContent, (err) =>
+        fs.writeFile('generated-readme.md', readmeContent, (err) =>
             err ? console.error(err) : console.log('Success!')
         )
     }
