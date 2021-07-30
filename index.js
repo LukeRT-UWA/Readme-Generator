@@ -2,13 +2,13 @@
 const fs = require('fs');
 // Reference inquirer
 const inquirer = require('inquirer');
-
+// Reference markdown (function that creates readme)
 const markdown = require('./lib/markdown');
 
 
 
 
-console.log(markdown);
+
 //Prompt for inquirer questions.
 inquirer
     .prompt([
@@ -19,8 +19,13 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Write down the project description?',
+            message: 'What is the Product Description?',
             name: 'desc',
+        },
+        {
+            type: 'input',
+            message: 'How is this application installed?',
+            name: 'installation',
         },
         {
             type: 'list',
@@ -33,6 +38,27 @@ inquirer
 
             ]
         },
+        {
+            type: 'input',
+            message: 'How is this application be used?',
+            name: 'usage',
+        },
+        {
+            type: 'input',
+            message: 'What tests have been run on this application?',
+            name: 'tests',
+        },
+        {
+            type: 'input',
+            message: 'What is your Github profile name for contact?',
+            name: 'github',
+        },
+        {
+            type: 'input',
+            message: 'What is your E-mail address for contact?',
+            name: 'email',
+        },
+
 
     ])
     .then((response) => {
