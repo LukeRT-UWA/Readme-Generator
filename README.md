@@ -16,7 +16,7 @@ Download the repo, install required packages (npm init -y, npm install inquirer)
 ## Usage
 https://user-images.githubusercontent.com/84198206/127624750-64309a37-213a-4810-917d-1c74be9bdd9c.mp4
 
-##Licence
+## Licence
 
 ## How to contribute
 Contact Me
