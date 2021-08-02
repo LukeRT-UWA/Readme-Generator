@@ -23,7 +23,7 @@ You open it and press buttons
 MIT
 
 ## How to Contribute
-undefined
+Contact me
 
 ## Tests
 No tests
